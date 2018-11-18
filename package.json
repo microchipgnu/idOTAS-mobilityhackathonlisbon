@@ -17,6 +17,7 @@
   },
   "homepage": "https://github.com/LewisFreitas/iota-sensor#readme",
   "dependencies": {
-    "iota.lib.js": "^0.5.1"
+    "iota.lib.js": "^0.5.1",
+    "websocket": "^1.0.28"
   }
 }

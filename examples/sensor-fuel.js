@@ -21,7 +21,8 @@ console.log('\n\nSENDING DATA!!\n\n')
 function start(){
 	date = new Date(Date.now()).toLocaleString()
     let message = { 
-        'Fuel': (Math.random() * (50.0 - 30.0) + 30.0).toFixed(2) + ' kWH',
+		'Fuel': (Math.random() * (50.0 - 30.0) + 30.0).toFixed(2),
+		'Unit': 'kWh',
         'Message' : i, 
         'Date' : date          
     }
